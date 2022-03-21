@@ -134,6 +134,15 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* Mobile */
+
+@media screen and (max-width: 680px) {
+    	iframe {
+		max-width: 300px;
+		max-height: 200px;
+	}
+}
+
 
 /* Basic */
 
